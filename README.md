@@ -88,4 +88,88 @@ It represents an important step in my journey toward becoming a **data-driven pr
 
 ---
 
+## Examples of Python Programming
+
+#Go through the integers from 1 to 100.  
+
+ 
+
+for item in range (1,101): 
+
+  print(f"Number: {item}") 
+
+ 
+
+#If a number is divisible by 3, print "fizz."  
+
+ 
+
+n = int(input("Enter a number: ")) 
+
+if n%3 == 0: 
+
+   print ("fizz") 
+
+else: 
+
+  print(f" {n}"" is not divisible by 3. ") 
+
+ 
+
+#If a number is divisible by 5, print "buzz."  
+
+ 
+
+n = int(input("Enter a number: ")) 
+
+if n%5 == 0: 
+
+   print ("buzz") 
+
+else: 
+
+  print(f" {n}"" is not divisible by 5. ") 
+
+ 
+
+#If a number is both divisible by 3 and by 5, print "fizzbuzz." 
+
+# Otherwise just print the number 
+
+ 
+
+number = int(input("Enter a number: ")) 
+
+ 
+
+if number % 3 == 0 and number % 5 == 0: 
+
+  print(f"The {number} is divibsle by 3 and 5. ") 
+
+  print("fizzbuzz") 
+
+else: 
+
+  print(f" {number}  ") 
+
+ 
+
+Use loops and if statements 
+
+# while loop 
+
+ 
+
+while True: 
+
+  answer = input("Do you love python yes/no? ") 
+
+  if answer == "yes": 
+
+  break
+
+  print ("Thank you for loving Python!") 
+
+ 
+
 > 📊 *This workbook demonstrates the transition from beginner programming to applied data analysis using Python.*
