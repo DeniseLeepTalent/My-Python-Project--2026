@@ -31,8 +31,7 @@ The tasks focus on building problem-solving skills, writing efficient scripts, a
 ### 🔄 Problem Solving & Logic Building
 - Developed solutions to structured problems such as:
   - **FizzBuzz challenge** (loop + conditional logic)  
-- Applied logical thinking to handle multiple conditions and outputs 2wcompletetraining057-my.sharepoint.com/personal/denisesorhaindo1_bootcamp_leepgroup_com/_layouts/15/Doc.aspx?sourcedoc=%7B848CEEF6-5249-47A1-97C8-95D83E9059CE%7D&file=Data_Technician_Workbook_Week_6%20Python%202026%20DS%20-%20Final.docx&action=default&mobileredirect=true)  
-
+- Applied logical thinking to handle multiple conditions and outputs 
 ---
 
 ### 💬 User Interaction
@@ -88,88 +87,55 @@ It represents an important step in my journey toward becoming a **data-driven pr
 
 ---
 
-## Examples of Python Programming
 
-#Go through the integers from 1 to 100.  
 
- 
+### 📌 Examples of Python Programming
 
-for item in range (1,101): 
+## 📌 Go through the integers from 1 to 100
 
-  print(f"Number: {item}") 
+for item in range(1, 101):
+    print(f"Number: {item}")
 
- 
 
-#If a number is divisible by 3, print "fizz."  
+## 📌 If a number is divisible by 3, print "fizz"
 
- 
+n = int(input("Enter a number: "))
 
-n = int(input("Enter a number: ")) 
+if n % 3 == 0:
+    print("fizz")
+else:
+    print(f"{n} is not divisible by 3.")
 
-if n%3 == 0: 
 
-   print ("fizz") 
+## 📌 If a number is divisible by 5, print "buzz"
 
-else: 
+n = int(input("Enter a number: "))
 
-  print(f" {n}"" is not divisible by 3. ") 
+if n % 5 == 0:
+    print("buzz")
+else:
+    print(f"{n} is not divisible by 5.")
 
- 
 
-#If a number is divisible by 5, print "buzz."  
+## 📌 If a number is divisible by both 3 and 5, print "fizzbuzz"
 
- 
+number = int(input("Enter a number: "))
 
-n = int(input("Enter a number: ")) 
+if number % 3 == 0 and number % 5 == 0:
+    print(f"{number} is divisible by 3 and 5.")
+    print("fizzbuzz")
+else:
+    print(number)
 
-if n%5 == 0: 
 
-   print ("buzz") 
+## 📌 while loop and if statement
 
-else: 
+while True:
+    answer = input("Do you love Python yes/no? ")
 
-  print(f" {n}"" is not divisible by 5. ") 
+    if answer == "yes":
+        break
 
- 
-
-#If a number is both divisible by 3 and by 5, print "fizzbuzz." 
-
-# Otherwise just print the number 
-
- 
-
-number = int(input("Enter a number: ")) 
-
- 
-
-if number % 3 == 0 and number % 5 == 0: 
-
-  print(f"The {number} is divibsle by 3 and 5. ") 
-
-  print("fizzbuzz") 
-
-else: 
-
-  print(f" {number}  ") 
-
- 
-
-Use loops and if statements 
-
-# while loop 
-
- 
-
-while True: 
-
-  answer = input("Do you love python yes/no? ") 
-
-  if answer == "yes": 
-
-  break
-
-  print ("Thank you for loving Python!") 
-
- 
+print("Thank you for loving Python!")
 
 > 📊 *This workbook demonstrates the transition from beginner programming to applied data analysis using Python.*
